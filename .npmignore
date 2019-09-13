@@ -1,0 +1,8 @@
+**/*.ts
+**/*.wallet
+node_modules
+**/*.log
+.eslintrc.json
+.vscode
+tsconfig.json
+**/*.tgz

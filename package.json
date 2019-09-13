@@ -1,0 +1,29 @@
+{
+  "name": "turtlecoin-wallet-upgrader",
+  "version": "0.0.2",
+  "scripts": {
+    "prepublish": "npm run-script build",
+    "build": "./node_modules/.bin/tsc",
+    "test": "node test.js",
+    "eslint": "./node_modules/.bin/eslint '**/*.ts'",
+    "prettier": "prettier '**/*.{ts,json,md}' --ignore-path .gitignore --single-quote --write"
+  },
+  "description": "A wrapper for TurtleCoin wallet-upgrader, which can upgrade wallets from the new to old format.",
+  "keywords": [
+    "turtlecoin",
+    "wallet-upgrader",
+    "cryptocurrency",
+    "cryptonote"
+  ],
+  "homepage": "https://turtlecoin.lol/",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.4"
+  },
+  "main": "./Converter.js"
+}

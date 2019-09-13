@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    ".eslintrc": "jsonc",
+    ".prettierrc": "jsonc"
+  },
+
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false,
+  "typescript.validate.enable": false,
+  "typescript.format.enable": false,
+
+  "eslint.validate": [
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "files.exclude": {
+    "**.*.js": true
+  }
+}
